@@ -160,7 +160,7 @@ h1{
 #tp-weather-widget {
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    top: 10px;
     -webkit-user-select: none;
     user-select: none;
 }
