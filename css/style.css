@@ -158,9 +158,33 @@ h1{
     }
 }
 #tp-weather-widget {
+    background-image: url(https://www.yangshangzhen.com/bing/wallpaper);
+    position: relative;
+            width: auto;
+            height: auto;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px 1px #000;
+            color: #fff;
+            font-size: 20px;
+            font-weight: lighter;
+            line-height: 35px;
+            overflow: hidden;
     position: fixed;
     left: 10px;
     top: 10px;
     -webkit-user-select: none;
     user-select: none;
+}
+#tp-weather-widget::before {
+	content: '';
+            display: block;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: -20px;
+            filter: blur(20px);
 }
