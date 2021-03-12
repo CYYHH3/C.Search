@@ -157,3 +157,12 @@ h1{
         margin-right: 0;
     }
 }
+.tp-weather-widget {
+    width: auto;
+    height: auto;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    -webkit-user-select: none;
+    user-select: none;
+}
