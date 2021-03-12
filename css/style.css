@@ -157,9 +157,7 @@ h1{
         margin-right: 0;
     }
 }
-.sc-csuQGl sw-container sc-bRBYWo brRCBH {
-    width: auto;
-    height: auto;
+#tp-weather-widget {
     position: fixed;
     right: 10px;
     bottom: 10px;
