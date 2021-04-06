@@ -30,78 +30,80 @@
     </script>
     <!-- End Google Analytics -->
     <!-- Cloudflare Web Analytics -->
+    <!--
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "14e57e20d0ed48e2b9dbc5de9f9d52f9", "spa": true}'></script>
+    -->
     <!-- End Cloudflare Web Analytics -->
 </head>
 <body>
-<div class="container">
-    <h1 id="timer"><!--简 · 搜索--></h1>
-    <ul class="btn-group">
-        <li data-logo="baidu">Baidu</li>
-        <li data-logo="google">Google</li>
-        <li data-logo="bing">Bing</li>
-        <li data-logo="doge">Doge</li>
-    </ul>
-    <div class="input">
-        <img src="" id="set">
-        <input type="text" id="searchInput" autocomplete="off">
+    <div class="container">
+        <h1 id="timer"><!--简 · 搜索--></h1>
+        <ul class="btn-group">
+            <li data-logo="baidu">Baidu</li>
+            <li data-logo="google">Google</li>
+            <li data-logo="bing">Bing</li>
+            <li data-logo="doge">Doge</li>
+        </ul>
+        <div class="input">
+            <img src="" id="set">
+            <input type="text" id="searchInput" autocomplete="off">
+        </div>
     </div>
-</div>
 
-<div class="footer">
-    <a href="https://weibo.com/ishuw" target="blank">@两双筷子</a>制作 | <a href="https://cyy.rthe.net" target="blank">@CYY</a>进行优化 | <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">背景图像设置</a></a>
-</div>
-<div id="light" class="white_content">
-	<a href="./win10-1">Win 10壁纸版(1)</a><br>
-	<a href="./win10-2">Win 10壁纸版(2)</a><br>
-	<a href="./cyberpunk-1">Cyberpunk(1)</a><br>
-	<a href="./cyberpunk-2">Cyberpunk(2)</a><br>
-	<a href="./cyberpunk-3">Cyberpunk(3)</a><br>
-	<a href=""></a><br>
-	<a href=""></a><br>
-	<!--<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</a>-->
-	&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<button onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</button>
-</div> 
-<div id="fade" class="black_overlay"></div>
+    <div class="footer">
+        <a href="https://weibo.com/ishuw" target="blank">@两双筷子</a>制作 | <a href="https://cyy.rthe.net" target="blank">@CYY</a>进行优化 | <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">背景图像设置</a></a>
+    </div>
+    <div id="light" class="white_content">
+        <a href="./win10-1">Win 10壁纸版(1)</a><br>
+        <a href="./win10-2">Win 10壁纸版(2)</a><br>
+        <a href="./cyberpunk-1">Cyberpunk(1)</a><br>
+        <a href="./cyberpunk-2">Cyberpunk(2)</a><br>
+        <a href="./cyberpunk-3">Cyberpunk(3)</a><br>
+        <a href=""></a><br>
+        <a href=""></a><br>
+        <!--<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</a>-->
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<button onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</button>
+    </div> 
+    <div id="fade" class="black_overlay"></div>
 
-<!--<script type="text/javascript" src="jquery.slim.min.js"></script>-->
-<script type="text/javascript" src="./js/zepto-min.js"></script>
-<script type="text/javascript" src="./js/script.js"></script>
-<script>
-	//显示时间
-	function showTime() {
-		nowtime = new Date();
-		hour = nowtime.getHours();//时
-		minutes = nowtime.getMinutes(); //分
-		//seconds = nowtime.getSeconds(); //秒
-		//文字增加空格
-		document.getElementById("timer").style = "white-space:pre;";
-		//显示时间
-		document.getElementById("timer").innerText = p(hour) + ":" + p(minutes) /*+ ":" + p(seconds)*/;
-	}
-	setInterval("showTime()", 1000);
-	//月日时分秒小于10补0
-	function p(s) {
-		return s < 10 ? '0' + s : s;
-	}
-</script>
+    <!--<script type="text/javascript" src="jquery.slim.min.js"></script>-->
+    <script type="text/javascript" src="./js/zepto-min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script>
+        //显示时间
+        function showTime() {
+            nowtime = new Date();
+            hour = nowtime.getHours();//时
+            minutes = nowtime.getMinutes(); //分
+            //seconds = nowtime.getSeconds(); //秒
+            //文字增加空格
+            document.getElementById("timer").style = "white-space:pre;";
+            //显示时间
+            document.getElementById("timer").innerText = p(hour) + ":" + p(minutes) /*+ ":" + p(seconds)*/;
+        }
+        setInterval("showTime()", 1000);
+        //月日时分秒小于10补0
+        function p(s) {
+            return s < 10 ? '0' + s : s;
+        }
+    </script>
 	
-<!-- 心知天气 -->
-<div id="tp-weather-widget"></div>
-<script>
-    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-    window.SeniverseWeatherWidget('show', {
-        flavor: "bubble", //bubble or slim
-        location: "WX4FBXXFKE4F",
-        geolocation: true,
-    	language: "auto",
-    	unit: "c",
-    	theme: "auto",
-    	token: "93ca93c8-a4a6-4a83-a8a9-823f1900a7cf",
-    	hover: "enabled",
-    	container: "tp-weather-widget"
-    })
-</script>
-<!-- End-心知天气 -->
+    <!-- 心知天气 -->
+    <div id="tp-weather-widget"></div>
+    <script>
+        (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "bubble", //bubble or slim
+            location: "WX4FBXXFKE4F",
+            geolocation: true,
+    	    language: "auto",
+    	    unit: "c",
+    	    theme: "auto",
+    	    token: "93ca93c8-a4a6-4a83-a8a9-823f1900a7cf",
+    	    hover: "enabled",
+    	    container: "tp-weather-widget"
+        })
+    </script>
+    <!-- End-心知天气 -->
 </body>
 </html>
