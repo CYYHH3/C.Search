@@ -39,9 +39,9 @@ $('.btn-group li').click(function(){
 
 // 回车搜索
 document.getElementById('searchInput').onkeydown=function(e){
-   if(e.keyCode==13){
-       let type=localStorage.getItem('type');
-       let url='';
+    if(e.keyCode==13){
+        let type=localStorage.getItem('type');
+        let url='';
         switch (type) {
             case 'Baidu':
                 url='https://www.baidu.com/s?wd=';
@@ -57,5 +57,5 @@ document.getElementById('searchInput').onkeydown=function(e){
                 break;
         }
         location.href=url+$(this).val();
-}
+    }
 }
