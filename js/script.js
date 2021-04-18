@@ -59,20 +59,3 @@ document.getElementById('searchInput').onkeydown=function(e){
         location.href=url+$(this).val();
     }
 }
-
-// 显示时间
-function showTime() {
-    nowtime = new Date();
-    hour = nowtime.getHours();//时
-    minutes = nowtime.getMinutes(); //分
-    //seconds = nowtime.getSeconds(); //秒
-    //文字增加空格
-    document.getElementById("timer").style = "white-space:pre;";
-    //显示时间
-    document.getElementById("timer").innerText = p(hour) + ":" + p(minutes) /*+ ":" + p(seconds)*/;
-}
-setInterval("showTime()", 1000);
-//月日时分秒小于10补0
-function p(s) {
-    return s < 10 ? '0' + s : s;
-}
