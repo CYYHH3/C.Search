@@ -1,1 +1,1 @@
-console.log("%cCSearch", "colour: orange;")
+console.log("%cCSearch", "color: orange;")
