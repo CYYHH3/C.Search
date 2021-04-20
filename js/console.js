@@ -1,1 +1,1 @@
-console.log("%c", "background:url('./img/index-icon.png')");
+console.log("%c", "background:url('../img/index-icon.png')");
