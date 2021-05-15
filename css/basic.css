@@ -178,7 +178,7 @@ h1 {
     color: gray;
     transition: color 0.2s ease 0s;
 }
-.white_content button {
+.white_content button, .white_content button:hover {
     background: orange;
 }
 
