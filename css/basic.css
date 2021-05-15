@@ -60,7 +60,9 @@ h1 {
     text-shadow: 0 0 6px black;
 }
 .input {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     width: 650px;
     height: 60px;
     margin: 0 auto;
