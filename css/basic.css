@@ -179,7 +179,10 @@ h1 {
     transition: color 0.2s ease 0s;
 }
 .white_content button, .white_content button:hover {
+    position: absolute;
     background: orange;
+    right: 10px;
+    bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
