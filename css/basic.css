@@ -178,6 +178,9 @@ h1 {
     color: gray;
     transition: color 0.2s ease 0s;
 }
+.white_content button {
+    background: orange;
+}
 
 @media screen and (max-width: 768px) {
     .container {
@@ -216,11 +219,4 @@ h1 {
     .btn-group li:last-child {
         margin-right: 0;
     }
-}
-#tp-weather-widget {
-    position: fixed;
-    left: 10px;
-    top: 10px;
-    -webkit-user-select: none;
-    user-select: none;
 }
