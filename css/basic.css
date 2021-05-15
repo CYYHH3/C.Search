@@ -184,6 +184,11 @@ h1 {
     background: orange;
     right: 10px;
     bottom: 10px;
+    transition: 0.2s ease 0s;
+}
+.white_content button:hover {
+    background: #e59400;
+    transition: 0.2s ease 0s;
 }
 
 @media screen and (max-width: 768px) {
