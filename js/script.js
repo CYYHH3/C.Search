@@ -59,3 +59,7 @@ document.getElementById('searchInput').onkeydown=function(e){
         location.href=url+$(this).val();
     }
 }
+
+//Waves
+Waves.attach('.close', ['waves-button', 'waves-float', 'waves-light']);
+Waves.init();
