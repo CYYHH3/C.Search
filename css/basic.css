@@ -180,6 +180,7 @@ h1 {
 }
 .white_content button, .white_content button:hover {
     position: absolute;
+    color: #000;
     background: orange;
     right: 10px;
     bottom: 10px;
