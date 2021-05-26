@@ -6,4 +6,3 @@
 | :white_check_mark: | Force `input` class fixed at a point |
 |  | Make `footer` more refined (Use RGBA or Gaussian Blur) |
 |  | Add search term association. Reference: https://blog.csdn.net/u012302552/article/details/77823624 |
-|  | Add search term association. Reference: <a href="https://blog.csdn.net/u012302552/article/details/77823624" target="_blank">https://blog.csdn.net/u012302552/article/details/77823624</a> |
