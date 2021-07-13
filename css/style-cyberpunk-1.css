@@ -1,7 +1,9 @@
 body {
     /*background: #f4f4f4;*/
-    background-image: url(https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/img/cyberpunk-1.png);
-    /*background-image: url(../img/cyberpunk-1.png);*/
+    background-image: url(https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/img/background-img/compressed/Cyberpunk2077-1.jpg);
+    /*background-image: url(https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/img/background-img/Cyberpunk2077-1.png);*/
+    /*background-image: url(../img/background-img/compressed/Cyberpunk2077-1.jpg);*/
+    /*background-image: url(../img/background-img/Cyberpunk2077-1.png);*/
 }
 .footer {
     color: gray/*#a0a0a0*/;
