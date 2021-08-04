@@ -45,60 +45,42 @@
     <!-- End Microsoft Clarity -->
 </head>
 <body>
-<div class="container">
-    <h1 id="timer">简 · 搜索</h1>
-    <ul class="btn-group">
-        <li data-logo="Baidu">Baidu</li>
-        <li data-logo="Google">Google</li>
-        <li data-logo="Bing">Bing</li>
-        <li data-logo="Doge">Doge</li>
-    </ul>
-    <div class="input">
-        <img src="" id="set">
-        <input type="text" id="searchInput" autocomplete="off" autofocus="autofocus">
+    <div class="container">
+        <h1 id="timer">简 · 搜索</h1>
+        <ul class="btn-group">
+            <li data-logo="Baidu">Baidu</li>
+            <li data-logo="Google">Google</li>
+            <li data-logo="Bing">Bing</li>
+            <li data-logo="Doge">Doge</li>
+        </ul>
+        <div class="input">
+            <img src="" id="set">
+            <input type="text" id="searchInput" autocomplete="off" autofocus="autofocus">
+        </div>
     </div>
-</div>
 
-<div class="footer">
-    <a href="https://weibo.com/ishuw" target="blank">@两双筷子</a>制作 | <a href="https://cyy.rthe.net" target="blank">@CYY</a>进行优化 | <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">背景图像设置</a>
-</div>
-<div id="light" class="white_content">
-	<a href="./">必应壁纸, 每日更新</a><br>
-	<a href="./Windows10-1">Windows 10 壁纸 - 1</a><br>
-	<a href="./Cyberpunk2077-1">Cyberpunk 2077 - 1</a><br>
-	<a href="./Cyberpunk2077-2">Cyberpunk 2077 - 2</a><br>
-	<a href="./Cyberpunk2077-3">Cyberpunk 2077 - 3</a><br>
-	<!--<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</a>-->
-	<button class="close" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</button>
-</div> 
-<div id="fade" class="black_overlay"></div>
+    <div class="footer">
+        <a href="https://weibo.com/ishuw" target="blank">@两双筷子</a>制作 | <a href="https://cyy.rthe.net" target="blank">@CYY</a>进行优化 | <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">背景图像设置</a>
+    </div>
+    <div id="light" class="white_content">
+        <a href="./">必应壁纸, 每日更新</a><br>
+        <a href="./Windows10-1">Windows 10 壁纸 - 1</a><br>
+        <a href="./Cyberpunk2077-1">Cyberpunk 2077 - 1</a><br>
+        <a href="./Cyberpunk2077-2">Cyberpunk 2077 - 2</a><br>
+        <a href="./Cyberpunk2077-3">Cyberpunk 2077 - 3</a><br>
+        <!--<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</a>-->
+        <button class="close" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</button>
+    </div> 
+    <div id="fade" class="black_overlay"></div>
 
-<!-- 心知天气 -->
-<div id="tp-weather-widget"></div>
-<!-- End-心知天气 -->
+    <!-- 心知天气 -->
+    <div id="tp-weather-widget"></div>
+    <!-- End-心知天气 -->
 
-<!--<script type="text/javascript" src="jquery.slim.min.js"></script>-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/zepto-min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/Waves/waves.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/script.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/console.js"></script>
-<script>
-	//显示时间
-	function showTime() {
-		nowtime = new Date();
-		hour = nowtime.getHours();//时
-		minutes = nowtime.getMinutes(); //分
-		//seconds = nowtime.getSeconds(); //秒
-		//文字增加空格
-		document.getElementById("timer").style = "white-space:pre;";
-		//显示时间
-		document.getElementById("timer").innerText = p(hour) + ":" + p(minutes) /*+ ":" + p(seconds)*/;
-	}
-	setInterval("showTime()", 1000);
-	//月日时分秒小于10补0
-	function p(s) {
-		return s < 10 ? '0' + s : s;
-	}
-</script>
+    <!--<script type="text/javascript" src="jquery.slim.min.js"></script>-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/zepto-min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/Waves/waves.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/js/console.js"></script>
 </body>
 </html>
