@@ -1,7 +1,7 @@
 @font-face {
     font-family: HarmonyOS Sans Regular;
-    src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf"),
-         /*url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf")*/;
+    src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf")/*,
+         url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf")*/;
 }
 
 * {
