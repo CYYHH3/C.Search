@@ -1,3 +1,8 @@
+@font-face {
+    font-family: HarmonyOS Sans Regular;
+    src: url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@ body {
     height: 100%;
     margin: 0; 
     padding: 0;
-    font-family: 微软雅黑;
+    font-family: HarmonyOS Sans Regular, 微软雅黑;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
