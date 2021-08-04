@@ -1,4 +1,4 @@
-var url="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/img/logo/compressed/";
+var selogourl="https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/img/logo/compressed/";
 // 文档加载完毕
 $(function () {
     let type = localStorage.getItem('type');
@@ -12,7 +12,7 @@ $(function () {
     $('.btn-group li').each(function(){
         if ($(this).text()==type){
             $(this).addClass('this');
-            let src=url+$(this).attr('data-logo')+'.png';
+            let src=selogourl+$(this).attr('data-logo')+'.png';
             //let src='./img/logo/compressed/'+$(this).attr('data-logo')+'.png';
             $('#set').attr('src',src);
         }
@@ -32,7 +32,7 @@ $('.btn-group li').click(function(){
     localStorage.setItem('type',$(this).text());
     //let src='https://cdn.jsdelivr.net/gh/CYYHH3/CSearch/img/'+$(this).attr('data-logo')+'.png';
     //let src='https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/img/'+$(this).attr('data-logo')+'.png';
-    let src=url+$(this).attr('data-logo')+'.png';
+    let src=selogourl+$(this).attr('data-logo')+'.png';
     //let src='./img/'+$(this).attr('data-logo')+'.png';
     $('#set').attr('src',src);
     $('.container').removeClass('set');
