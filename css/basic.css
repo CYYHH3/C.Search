@@ -5,16 +5,22 @@
     font-display: optional;
 }*/
 /*@font-face {
+    font-family: HarmonyOS Sans Light;
+    src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Light.ttf"),
+         url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Light.ttf");
+    font-display: optional;
+}*/
+/*@font-face {
     font-family: HarmonyOS Sans SC Regular;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf");
-    font-display: fallback;
+    font-display: optional;
 }*/
 @font-face {
     font-family: HarmonyOS Sans SC Light;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf");
-    font-display: fallback;
+    font-display: optional;
 }
 
 * {
@@ -33,7 +39,7 @@ body {
     height: 100%;
     margin: 0; 
     padding: 0;
-    font-family: HarmonyOS Sans SC Light, HarmonyOS Sans Regular, 微软雅黑, sans-serif;
+    font-family: HarmonyOS Sans SC Light, HarmonyOS Sans Light, 微软雅黑, sans-serif;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,8 +77,8 @@ body {
     height: 70%;
 }
 h1 {
-    font-weight: 400;
     color: white/*#aaa*/;
+    font-weight: 400;
     font-size: 3.0rem;
     margin-bottom: 40px;
     text-align: center;
