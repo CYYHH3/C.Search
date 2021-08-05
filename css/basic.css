@@ -8,7 +8,7 @@
     font-family: HarmonyOS Sans SC Regular;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf");
-    font-display: optional;
+    font-display: fallback;
 }
 
 * {
