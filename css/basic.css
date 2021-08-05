@@ -4,10 +4,16 @@
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf");
     font-display: optional;
 }*/
-@font-face {
+/*@font-face {
     font-family: HarmonyOS Sans SC Regular;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf");
+    font-display: fallback;
+}*/
+@font-face {
+    font-family: HarmonyOS Sans SC Light;
+    src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf"),
+         url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf");
     font-display: fallback;
 }
 
@@ -27,7 +33,7 @@ body {
     height: 100%;
     margin: 0; 
     padding: 0;
-    font-family: HarmonyOS Sans SC Regular, HarmonyOS Sans Regular, 微软雅黑, sans-serif;
+    font-family: HarmonyOS Sans SC Light, HarmonyOS Sans Regular, 微软雅黑, sans-serif;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
