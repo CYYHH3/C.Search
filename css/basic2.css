@@ -2,25 +2,25 @@
     font-family: HarmonyOS Sans Regular;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Regular.ttf");
-    font-display: fallback;
+    font-display: optional;
 }*/
 /*@font-face {
     font-family: HarmonyOS Sans Light;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Light.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans/HarmonyOS_Sans_Light.ttf");
-    font-display: fallback;
+    font-display: optional;
 }*/
 /*@font-face {
     font-family: HarmonyOS Sans SC Regular;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf");
-    font-display: fallback;
+    font-display: optional;
 }*/
 @font-face {
     font-family: HarmonyOS Sans SC Light;
     src: url("https://cdn.jsdelivr.net/gh/CYYHH3/CSearch@main/fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf"),
          url("../fonts/HarmonyOS Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Light.ttf");
-    font-display: fallback;
+    font-display: optional;
 }
 
 * {
