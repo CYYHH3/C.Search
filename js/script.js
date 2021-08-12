@@ -83,7 +83,7 @@ window.SeniverseWeatherWidget('show', {
 WIDGET = {
     "CONFIG": {
         "modules": "012",
-        "background": "1", // 1 or 5
+        "background": "5", // 1 or 5
         "tmpColor": "FFFFFF",
         "tmpSize": "15",
         "cityColor": "FFFFFF",
