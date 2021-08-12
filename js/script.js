@@ -79,6 +79,32 @@ window.SeniverseWeatherWidget('show', {
     container: "tp-weather-widget"
 })
 
+//和风天气
+WIDGET = {
+    "CONFIG": {
+        "modules": "012",
+        "background": "1",
+        "tmpColor": "FFFFFF",
+        "tmpSize": "15",
+        "cityColor": "FFFFFF",
+        "citySize": "15",
+        "aqiColor": "FFFFFF",
+        "aqiSize": "15",
+        "weatherIconSize": "20",
+        "alertIconSize": "16",
+        "padding": "10px 10px 10px 10px",
+        "shadow": "0",
+        "language": "auto",
+        "borderRadius": "5",
+        "fixed": "true",
+        "vertical": "center",
+        "horizontal": "center",
+        "left": "10",
+        "top": "10",
+        "key": "bdf2c383b6fd443fbedacbd53e2dc430"
+    }
+}
+
 //显示时间
 function showTime() {
     nowtime = new Date();
