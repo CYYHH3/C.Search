@@ -63,6 +63,7 @@ document.getElementById('searchInput').onkeydown=function(e){
 
 // Waves
 Waves.attach('.close', ['waves-button', 'waves-light']);
+Waves.attach('.wv-top-button', ['waves-button', 'waves-light']);
 Waves.init();
 
 // 心知天气
