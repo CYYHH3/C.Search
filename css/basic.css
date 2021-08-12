@@ -215,7 +215,7 @@ h1 {
     background: #e59400;
     transition: 0.2s ease 0s;
 }
-.he-plugin-simple {
+#he-plugin-simple {
     backdrop-filter: blur(10px);
 }
 
