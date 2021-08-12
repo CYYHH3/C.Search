@@ -217,6 +217,7 @@ h1 {
 }
 #he-plugin-simple {
     backdrop-filter: blur(10px);
+    /*backdrop-filter: brightness(70%);*/
 }
 
 @media screen and (max-width: 768px) {
