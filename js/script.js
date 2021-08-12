@@ -84,13 +84,13 @@ window.SeniverseWeatherWidget('show', {
 WIDGET = {
     "CONFIG": {
         "modules": "012",
-        "background": "5", // 1 or 5
+        "background": "5",
         "tmpColor": "FFFFFF",
-        "tmpSize": "15",
+        "tmpSize": "14",
         "cityColor": "FFFFFF",
-        "citySize": "15",
+        "citySize": "14",
         "aqiColor": "FFFFFF",
-        "aqiSize": "15",
+        "aqiSize": "14",
         "weatherIconSize": "20",
         "alertIconSize": "16",
         "padding": "7px 7px 7px 7px",
@@ -102,7 +102,7 @@ WIDGET = {
         "horizontal": "center",
         "left": "10",
         "top": "10",
-        "key": "3895395965f24c9b9e7dfac9972292e8"
+        "key": "f44149d0100c4a469912eab8072fd562"
     }
 }
 
