@@ -216,6 +216,14 @@ h1 {
     background: #e59400;
     transition: 0.2s ease 0s;
 }
+
+#tp-weather-widget {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
 #he-plugin-simple {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
