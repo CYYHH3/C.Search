@@ -105,8 +105,7 @@ window.SeniverseWeatherWidget('show', {
     token: "93ca93c8-a4a6-4a83-a8a9-823f1900a7cf",
     hover: "enabled",
     container: "tp-weather-widget"
-})
-addCSS(".EKHJj {color: #fff;}");
+}); addCSS(".EKHJj {color: #fff;}")
 
 //和风天气
 WIDGET = {
