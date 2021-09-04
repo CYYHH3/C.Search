@@ -61,6 +61,33 @@ document.getElementById('searchInput').onkeydown=function(e){
     }
 }
 
+// 添加 CSS 的函数
+function addCSS(cssText){
+    var style = document.createElement('style'),  // 创建一个 style 元素
+        head = document.head || document.getElementsByTagName('head')[0];  // 获取 head 元素
+    style.type = 'text/css';  // 这里必须显示设置 style 元素的 type 属性为 text/css，否则在 IE 中不起作用
+    if(style.styleSheet){  // IE
+        var func = function(){
+            try{  // 防止 IE 中 stylesheet 数量超过限制而发生错误
+                style.styleSheet.cssText = cssText;
+            }catch(e){
+ 
+            }
+        }
+        // 如果当前 styleSheet 还不能用，则放到异步中则行
+        if(style.styleSheet.disabled){
+            setTimeout(func,10);
+        }else{
+            func();
+        }
+    }else{ // W3C
+        // W3C 浏览器中只要创建文本节点插入到 style 元素中就行了
+        var textNode = document.createTextNode(cssText);
+        style.appendChild(textNode);
+    }
+    head.appendChild(style); // 把创建的 style 元素插入到 head 中   
+}
+
 // Waves
 Waves.attach('.close', ['waves-button', 'waves-light']);
 Waves.attach('.wv-top-button', ['waves-button', 'waves-light']);
@@ -79,6 +106,7 @@ window.SeniverseWeatherWidget('show', {
     hover: "enabled",
     container: "tp-weather-widget"
 })
+addCSS(".EKHJj {color: #fff;}");
 
 //和风天气
 WIDGET = {
