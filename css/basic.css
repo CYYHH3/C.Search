@@ -217,7 +217,7 @@ h1 {
     transition: 0.2s ease 0s;
 }
 
-.tp-weather-outermost {
+.tp-weather-outer {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
