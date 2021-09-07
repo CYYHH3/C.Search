@@ -1,4 +1,5 @@
 // Analytics
+
 // Global site tag (gtag.js) - Google Analytics
 var ga = ga || [];
 (function() {
@@ -14,6 +15,7 @@ gtag('js', new Date());
 
 gtag('config', 'G-WSMWPHC2T1');
 // End Google Analytics
+
 // 百度统计
 var _hmt = _hmt || [];
 (function() {
@@ -23,6 +25,7 @@ var _hmt = _hmt || [];
     s.parentNode.insertBefore(hm, s);
 })();
 // End 百度统计
+
 // Microsoft Clarity
 /*(function(c,l,a,r,i,t,y){
     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -30,3 +33,7 @@ var _hmt = _hmt || [];
     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window, document, "clarity", "script", "6bbpg0iexw");*/
 // End Microsoft Clarity
+
+// 「我要啦」网站流量统计
+!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JQpySY2jWFOH1WgU",ck:"JQpySY2jWFOH1WgU"});
+// End 「我要啦」网站流量统计
