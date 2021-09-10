@@ -162,6 +162,7 @@ h1 {
     border-radius: 5px;
     padding: 3px 6px;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .footer a {
     text-decoration: none;
