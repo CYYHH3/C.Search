@@ -153,11 +153,15 @@ h1 {
     font-size: 20px;
 }
 .footer {
-    text-align: center;
-    position: fixed;
-    width: 100vw;
-    bottom: 15px;
+    position: absolute;
+    width: auto;
     font-size: 12px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    padding: 3px 6px;
+    backdrop-filter: blur(10px);
 }
 .footer a {
     text-decoration: none;
