@@ -81,7 +81,7 @@ window.SeniverseWeatherWidget('show', {
 })
 
 // 和风天气
-/*WIDGET = {
+WIDGET = {
     "CONFIG": {
         "modules": "012",
         "background": "5", // 1 or 5
@@ -104,8 +104,8 @@ window.SeniverseWeatherWidget('show', {
         "top": "10",
         "key": "f44149d0100c4a469912eab8072fd562"
     }
-}*/
-WIDGET = {
+}
+/*WIDGET = {
     "CONFIG": {
         "modules": "0123",
         "background": "5", // 1 or 5
@@ -128,7 +128,7 @@ WIDGET = {
         "top": "10",
         "key": "34b7ea75e3be4d97a114ba9796cc18c5"
     }
-}
+}*/
 
 // 显示时间
 function showTime() {
