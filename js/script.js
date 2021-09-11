@@ -81,6 +81,30 @@ window.SeniverseWeatherWidget('show', {
 })
 
 // 和风天气
+/*WIDGET = {
+    "CONFIG": {
+        "modules": "012",
+        "background": "5", // 1 or 5
+        "tmpColor": "FFFFFF",
+        "tmpSize": "14",
+        "cityColor": "FFFFFF",
+        "citySize": "14",
+        "aqiColor": "FFFFFF",
+        "aqiSize": "14",
+        "weatherIconSize": "20",
+        "alertIconSize": "16",
+        "padding": "4px 4px 4px 4px",
+        "shadow": "0",
+        "language": "auto",
+        "borderRadius": "5",
+        "fixed": "true",
+        "vertical": "center",
+        "horizontal": "center",
+        "left": "10",
+        "top": "10",
+        "key": "f44149d0100c4a469912eab8072fd562"
+    }
+}*/
 WIDGET = {
     "CONFIG": {
         "modules": "0123",
@@ -102,7 +126,7 @@ WIDGET = {
         "horizontal": "center",
         "left": "10",
         "top": "10",
-        "key": "f44149d0100c4a469912eab8072fd562"
+        "key": "34b7ea75e3be4d97a114ba9796cc18c5"
     }
 }
 
