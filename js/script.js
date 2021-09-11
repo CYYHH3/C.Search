@@ -83,7 +83,7 @@ window.SeniverseWeatherWidget('show', {
 // 和风天气
 WIDGET = {
     "CONFIG": {
-        "modules": "012",
+        "modules": "0123",
         "background": "5", // 1 or 5
         "tmpColor": "FFFFFF",
         "tmpSize": "14",
