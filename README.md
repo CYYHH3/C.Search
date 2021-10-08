@@ -1,4 +1,4 @@
-# CSearch
+# C·Search
 ## To do
 | Status | To do |
 | :----: | :---- |
